@@ -34,6 +34,8 @@
 //     cy.get('*[class^="card"]')
 // });
 
+// New Test Comment
+
 it('Using Get with Find and Eq', ()=> {
     cy.viewport(1200, 800)
     cy.visit('https://next.privat24.ua/deposit')
@@ -43,5 +45,5 @@ it('Using Get with Find and Eq', ()=> {
 it.only('Using Get with Find and Eq', ()=> {
     cy.viewport(1500, 800)
     cy.visit('https://docs.cypress.io/guides/overview/why-cypress#In-a-nutshell')
-    cy.get('ul[class^="scrollactive-nav"]').find('li').eq('8')
+    
 });
