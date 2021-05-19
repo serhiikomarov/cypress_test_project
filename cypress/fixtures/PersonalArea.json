@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://devstat.briz.ua/login",
+  "correctLogin": "au_test",
+  "inCorrectLogin": "au_tets",
+  "correctPassword": "123456",
+  "inCorrectPassword": "123654"
+}
